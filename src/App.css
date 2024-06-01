@@ -1,5 +1,73 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap');
+.main_heading
+{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 90px;
+  color: brown;
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+body{
+  background-color:#ECCA9C;
+}
+.app__recipes
+{
+  display: grid;
+  margin-top: 24px;
+  grid-template-columns: 230px 230px 230px 230px;
+  align-items:stretch;
+  
+}
+.tagline
+{
+  color : black;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-size: 30px;
+}
+.input
+{
+  border-radius: 20px;
+  border: none;
+  height: 50px;
+  width:400px;
+  margin: 10px;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
   text-align: center;
+  font-size: 30px;
+
+}
+
+.submitbtn
+{
+  background-color: brown;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+ 
+}
+.submitbtn:hover
+{
+  background-color: brown;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor:pointer;
+ 
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .App-logo {
